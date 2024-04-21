@@ -5,7 +5,7 @@
         // Show an alert message
         var txt;
         txt="open in desktop view ";
-        alert("Please open in desktop view ");
+        alert("Please open in Laptop/PC ");
     }
 
 
@@ -109,6 +109,9 @@ window.addEventListener('resize', function() {
             $(this).css("width", $(this).attr("aria-valuenow") + '%');
         });
     }, {offset: '80%'});
+
+
+    // form forwording 
 
 
     // Portfolio isotope and filter
